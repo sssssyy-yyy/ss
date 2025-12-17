@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrainCircuit, Github } from 'lucide-react';
+import { BrainCircuit } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -25,7 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ children, onHomeClick }) => {
           </button>
           
           <div className="flex items-center gap-4 text-sm text-slate-500">
-             <span>Powered by Gemini 2.5</span>
+             <span>MindSight Engine v1.0</span>
           </div>
         </div>
       </header>
@@ -41,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children, onHomeClick }) => {
           <p className="mb-2">© 2024 MindSight AI. Not a substitute for professional medical advice.</p>
           <div className="flex justify-center items-center gap-2">
             <span className="w-1 h-1 rounded-full bg-slate-300"></span>
-            <span>Created for Gemini API Competition</span>
+            <span>Local Secure Processing</span>
           </div>
         </div>
       </footer>

@@ -52,7 +52,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSelectTopic }) => {
           </span>
         </h1>
         <p className="text-lg text-slate-600 leading-relaxed">
-          MindSight 结合先进的 Gemini 机器学习模型，为您实时生成动态测评，
+          MindSight 结合先进的专业心理学算法，为您实时生成动态测评，
           深度剖析性格特质，提供个性化的成长建议。
         </p>
       </div>
@@ -85,7 +85,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSelectTopic }) => {
       <div className="bg-indigo-900 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
         <div className="relative z-10 grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <h2 className="text-2xl font-bold mb-4">为什么选择 AI 测评?</h2>
+            <h2 className="text-2xl font-bold mb-4">为什么选择 MindSight?</h2>
             <ul className="space-y-3 text-indigo-100">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-indigo-400 rounded-full"/> 
@@ -93,7 +93,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSelectTopic }) => {
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-indigo-400 rounded-full"/> 
-                基于语义理解的深度回答分析
+                基于专业量表的深度结果分析
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-indigo-400 rounded-full"/> 

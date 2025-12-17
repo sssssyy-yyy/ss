@@ -1,5 +1,5 @@
 {
   "name": "MindSight AI - 智能心理测评",
-  "description": "基于 Google Gemini 模型的智能心理测评平台。提供个性化心理画像、压力分析与职业性格测试，通过深度学习分析您的回答，生成可视化的多维心理报告。",
+  "description": "MindSight 智能心理测评平台。提供个性化心理画像、压力分析与职业性格测试，通过深度分析算法分析您的回答，生成可视化的多维心理报告。",
   "requestFramePermissions": []
 }
